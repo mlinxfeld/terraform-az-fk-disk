@@ -16,7 +16,7 @@ This deployment builds on the same minimal compute and networking
 foundation as the single-disk example, but introduces **multiple data
 disks** attached to the same VM.
 
-`<img src="02-vm-multiple-disks-architecture.png" width="900"/>`{=html}
+<img src="02-vm-multiple-disks-architecture.png" width="900"/>
 
 This example creates:
 
