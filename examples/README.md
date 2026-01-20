@@ -1,10 +1,10 @@
-# Azure Managed Disks with Terraform/OpenTofu -- Training Examples
+# Azure Managed Disks with Terraform/OpenTofu - Training Examples
 
 This directory contains all **disk-focused training examples** built
 around the `terraform-az-fk-disk` module.
 
 The examples are designed as **progressive building blocks** that
-introduce **persistent storage for Azure Virtual Machines** --- starting
+introduce **persistent storage for Azure Virtual Machines** - starting
 from a single data disk and extending to **multiple managed disks
 attached to the same VM**.
 
