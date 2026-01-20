@@ -14,6 +14,10 @@ networking features. Instead, it focuses on a single concept:
 
 ## 🧭 Architecture Overview
 
+<img src="01-vm-single-disk-architecture.png" width="900"/>
+
+*Figure 1. Single Azure Virtual Machine deployed into a public subnet with a dedicated Managed Data Disk attached.*
+
 This deployment creates a minimal Azure setup:
 
 -   One **Linux Virtual Machine**
