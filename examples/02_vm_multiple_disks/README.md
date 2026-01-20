@@ -80,7 +80,7 @@ You should observe:
 -   Each disk attached at a distinct **LUN**
 -   Different disk sizes and performance characteristics
 
-`<img src="02-vm-multiple-disks-portal.png" width="900"/>`{=html}
+<img src="02-vm-multiple-disks-portal.png" width="900"/>
 
 *Figure 1. Linux Virtual Machine with multiple Managed Data Disks
 attached at distinct LUNs.*
