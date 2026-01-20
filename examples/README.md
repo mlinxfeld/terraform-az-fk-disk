@@ -19,26 +19,18 @@ used across:
 -   AKS and platform integration courses\
 -   Multicloud (Azure + OCI) architectural training
 
-------------------------------------------------------------------------
+---
 
 ## 🧭 Example Overview
 
-  -----------------------------------------------------------------------
-  Example            Title              Key Topics
-  ------------------ ------------------ ---------------------------------
-  01                 **Single VM with   OS disk vs data disk, disk
-                     Managed Data       attachment, persistence baseline
-                     Disk**             
+| Example | Title | Key Topics |
+|------|------|-----------|
+| 01 | **Single VM with Managed Data Disk** |  OS disk vs data disk, disk attachment, persistence baseline
+| 02 | **Single VM with Multiple Data Disks** | Multiple managed disks, LUN  numbering, disk separation patterns
 
-  02                 **Single VM with   Multiple managed disks, LUN
-                     Multiple Data      numbering, disk separation
-                     Disks**            patterns
-  -----------------------------------------------------------------------
+Each example introduces **one clear storage concept** and can be applied **independently** for learning,experimentation, or reuse.
 
-Each example introduces **one clear storage concept** and can be applied
-**independently** for learning, experimentation, or reuse.
-
-------------------------------------------------------------------------
+---
 
 ## ⚙️ How to Use
 
@@ -67,7 +59,7 @@ This mirrors real-world Azure storage design: start with a single
 persistent disk, then scale the same concept to multiple disks with
 explicit roles and performance characteristics.
 
-------------------------------------------------------------------------
+---
 
 ## 🧩 Design Principles
 
@@ -91,7 +83,7 @@ The examples intentionally avoid:
 
 The goal is **clarity and correctness**, not completeness.
 
-------------------------------------------------------------------------
+---
 
 ## 🔗 Related Modules & Training
 
@@ -107,14 +99,14 @@ The goal is **clarity and correctness**, not completeness.
 -   [OCI OKE Module
     (terraform-oci-fk-oke)](https://github.com/mlinxfeld/terraform-oci-fk-oke)
 
-------------------------------------------------------------------------
+---
 
 ## 🪪 License
 
-Licensed under the **Universal Permissive License (UPL), Version 1.0**.\
+Licensed under the **Universal Permissive License (UPL), Version 1.0**.
 See `LICENSE` for details.
 
-------------------------------------------------------------------------
+---
 
 © 2026 FoggyKitchen.com --- Cloud. Code. Clarity.
 
