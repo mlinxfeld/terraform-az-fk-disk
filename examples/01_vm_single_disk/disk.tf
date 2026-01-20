@@ -1,6 +1,6 @@
 
 module "data_disk" {
-  source = "../../"
+  source = "github.com/mlinxfeld/terraform-az-fk-disk"
 
   name                = var.disk_name
   resource_group_name = azurerm_resource_group.foggykitchen_rg.name
