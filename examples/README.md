@@ -14,9 +14,9 @@ advanced compute or platform abstractions.
 They are part of the **FoggyKitchen.com training ecosystem** and are
 used across:
 
--   Azure Fundamentals with Terraform/OpenTofu\
--   Azure Compute & Storage deep dives\
--   AKS and platform integration courses\
+-   Azure Fundamentals with Terraform/OpenTofu
+-   Azure Compute & Storage deep dives
+-   AKS and platform integration courses
 -   Multicloud (Azure + OCI) architectural training
 
 ---
