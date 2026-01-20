@@ -46,16 +46,25 @@ variable "disk_name" {
   default     = "fkdisk"
 }
 
-variable "disk_size_gb" {
-  description = "Data disk size in GB."
-  type        = number
-  default     = 64
-}
-
-variable "disk_sku" {
-  description = "Managed Disk SKU."
-  type        = string
-  default     = "Premium_LRS"
+variable "data_disks" {
+  description = "Map of data disks to attach to the VM."
+  type = map(object({
+    size_gb = number
+    sku     = string
+    lun     = number
+  }))
+  default = {
+    data01 = {
+      size_gb = 64
+      sku     = "Premium_LRS"
+      lun     = 0
+    }
+    data02 = {
+      size_gb = 128
+      sku     = "Premium_LRS"
+      lun     = 1
+    }
+  }
 }
 
 variable "subnets" {
@@ -76,6 +85,6 @@ variable "tags" {
   default     = {
     project = "foggykitchen"
     module  = "terraform-az-fk-disk"
-    example = "01_vm_single_disk"
+    example = "02_vm_multiple_disks"
   }
 }
