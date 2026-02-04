@@ -11,7 +11,7 @@ attached to the same VM**.
 These examples deliberately focus on **storage fundamentals** and avoid
 advanced compute or platform abstractions.
 
-They are part of the **FoggyKitchen.com training ecosystem** and are
+They are part of the **[FoggyKitchen.com training ecosystem](https://foggykitchen.com/courses-2/)** and are
 used across:
 
 -   Azure Fundamentals with Terraform/OpenTofu
@@ -109,4 +109,3 @@ See `LICENSE` for details.
 ---
 
 © 2026 FoggyKitchen.com --- Cloud. Code. Clarity.
-
